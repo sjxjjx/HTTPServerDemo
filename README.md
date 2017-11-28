@@ -3,7 +3,7 @@
 CocoaHTTPServer在这里就不多做介绍，如果没有的话，可以的GitHub上去下载：[https://github.com/robbiehanson/CocoaHTTPServer](https://github.com/robbiehanson/CocoaHTTPServer)。
 下面开始简单介绍一下CocoaHTTPServer的使用。
 
-###步骤1：
+### 步骤1：
 
 CocoaHTTPServer框架中的文件导入项目中，需要的文件有：
 
@@ -15,12 +15,12 @@ CocoaHTTPServer框架中的文件导入项目中，需要的文件有：
 ![](http://upload-images.jianshu.io/upload_images/4908799-8bd0f1c8b0b61804.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/150)
 ![](http://upload-images.jianshu.io/upload_images/4908799-5843eef0d02e5787.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/500)
 
-###步骤2：
+### 步骤2：
 
 在 MyHTTPConnection.m 文件的 processStartOfPartWithHeader: 方法中，找到对应的地方，修改文件存储位置（这里以Document为例），如下图所示：
 ![](http://upload-images.jianshu.io/upload_images/4908799-5088f8a0afe9e94b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/500)
 
-###步骤3：
+### 步骤3：
 
 配置 httpServer。代码中有一个获取ip地址的方法，可以在网上搜，只要能获取到手机设备的ip地址就可以了，然后封装成一个工具类（SJXCSMIPHelper）。
 
