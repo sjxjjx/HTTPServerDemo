@@ -1,4 +1,4 @@
-## 使用CocoaHTTPServer框架
+## 使用CocoaHTTPServer框架实现wifi局域网传输文件到iPhone的功能
 
 CocoaHTTPServer在这里就不多做介绍，如果没有的话，可以的GitHub上去下载：[https://github.com/robbiehanson/CocoaHTTPServer](https://github.com/robbiehanson/CocoaHTTPServer)。
 下面开始简单介绍一下CocoaHTTPServer的使用。
