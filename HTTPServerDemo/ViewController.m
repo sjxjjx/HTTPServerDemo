@@ -55,7 +55,7 @@
     if ([httpServer start:&err]) {
         
         self.showIpLabel.hidden = NO;
-        NSString *ipString = [NSString stringWithFormat:@"请在网页输入这个地址  http://%@:%zd/", [SJXCSMIPHelper deviceIPAdress], [httpServer listeningPort]];
+        NSString *ipString = [NSString stringWithFormat:@"请在网页输入这个地址  http://%@:%hu/", [SJXCSMIPHelper deviceIPAdress], [httpServer listeningPort]];
         self.showIpLabel.text = ipString;
         NSLog(@"ipString : %@", ipString);
         
