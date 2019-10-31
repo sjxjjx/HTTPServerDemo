@@ -31,3 +31,5 @@ CocoaHTTPServer框架中的文件导入项目中，需要的文件有：
 
 在网页输入ip地址和端口，就可以使用了。
 ![](http://upload-images.jianshu.io/upload_images/4908799-944b64a48f139ace.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
+
+博客地址：[iOS项目之wifi局域网传输文件到iPhone的简单实现](https://www.cnblogs.com/sjxjjx/p/7430027.html)
